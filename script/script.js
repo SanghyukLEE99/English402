@@ -1,5 +1,21 @@
 $(function () {
 
+$(window).on("load", function () {
+    var menu = $(".menu>ul>li");
+    var con = $("#contents>div");
+    menu.click(function (e) {
+        e.preventDefault(); // 추가된 코드: 이벤트의 기본 동작을 막습니다.
+        var tg = $(this);
+        var i = tg.index();
+        var section = con.eq(i);
+        var top = section.offset().top;
+        $("html, body").stop().animate({
+            scrollTop: top
+        });
+    });
+
+
+
     // 로고 클릭시 최상단!
     $(".logo").on("click", function () {
         $("html, body").stop().animate({
@@ -20,6 +36,8 @@ $(function () {
             $(".btn_top").fadeOut();
         }
     });
+
+
 
     // 각 메뉴 클릭시 애니메이션으로 각 컨텐츠에 위치 이동
     var menu = $(".menu>ul>li");
