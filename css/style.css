@@ -27,13 +27,16 @@ a {
     min-width: 1225px;
 }
 
-.main-title {
+#wrap #slide .main-title {
     text-align: center;  /* 텍스트를 중앙으로 정렬 */
-    line-height: 620px; /* 세로로 중앙에 위치시키기 위해 높이에 맞춤 */
+    
     font-size: 50px; /* 텍스트 크기 조정 */
     color: #000000; /* 텍스트 색상 설정 */
     font-weight: bold; /* 글자를 굵게 */
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 10;
     
     /* 필요에 따라 추가 스타일링을 여기에 추가하세요 */
