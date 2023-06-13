@@ -27,6 +27,13 @@ a {
     min-width: 1225px;
 }
 
+.main-title {
+    text-align: center;  /* 텍스트를 중앙으로 정렬 */
+    line-height: 620px; /* 세로로 중앙에 위치시키기 위해 높이에 맞춤 */
+    font-size: 50px; /* 텍스트 크기 조정 */
+    color: #fff; /* 텍스트 색상 설정 */
+    font-weight: bold; /* 글자를 굵게 */
+}
 
 #slide .slideInner h1 {
     position: absolute;
