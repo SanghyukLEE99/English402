@@ -34,7 +34,7 @@ a {
     color: #000000; /* 텍스트 색상 설정 */
     font-weight: bold; /* 글자를 굵게 */
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
