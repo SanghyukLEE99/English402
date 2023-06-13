@@ -133,6 +133,15 @@ a {
     background: url("../images/01.png")no-repeat center 100px;
 }
 
+#a1-inner-text {
+    font-family: Arial, sans-serif; /* 폰트를 변경 */
+    text-align: center; /* 텍스트를 중앙에 배치 */
+    position: absolute; /* 상위 요소에 대해 절대 위치 지정 */
+    top: 50%; /* 상위 요소의 세로 중앙에 위치 */
+    left: 50%; /* 상위 요소의 가로 중앙에 위치 */
+    transform: translate(-50%, -50%); /* 자신의 중앙을 기준으로 이동 */
+}
+
 #wrap #contents #a2 {
     width: 100%;
     height: 1000px;
