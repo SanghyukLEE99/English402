@@ -12,6 +12,41 @@
     <script src="./script/script.js"></script>
 
     <style>
+        .intro-container, .video-container {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .intro-container h2, .video-container h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .feature-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature {
+            width: 45%; /* Adjust as per your layout preference */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+        }
+        .feature h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .feature ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature ul li:before {
+            content: '✓ ';
+            color: #28a745; /* Green color */
+        }
+        
          .intro-container {
         padding: 20px;
         line-height: 1.6;
@@ -91,6 +126,8 @@
             
             <div id="a2" class="section">
                 <!-- A2 Contents -->
+                <h2 style="text-align:center; font-size:2.5em; padding:20px;">Why Choose Us?</h2> <!-- This line is added -->
+                
                 <div class="feature-container">
                     <div class="feature">
                         <h3>Environmentally Friendly</h3>
@@ -119,8 +156,14 @@
                         </ul>
             </div>
            <div id="a3" class="section">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sr--GVIoluU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+                <div class="video-container">
+                    <h2>Learn More About Our Project Through This Video</h2> <!-- This line is added -->
+                    <p>
+                        Our team has created this promotional video to give you an in-depth view of our project. The video illustrates our mission and our dedication to creating an environmentally-friendly solution to the plastic waste problem. We hope this video will inspire you to join our cause and contribute to a more sustainable future.
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sr--GVIoluU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
     <div id="a4" class="section">
         <a href="./path/to/yourfile.pdf" target="_blank">Download PDF</a>
         <img src="./images/03.png" alt="Image 03">
