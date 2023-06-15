@@ -98,7 +98,6 @@ a {
 /* 컨텐츠 5종 */
 #wrap #contents #a1,
 #wrap #contents #a2,
-#wrap #contents #a3,
 #wrap #contents #a4,
 #wrap #contents #a5 {
     width: 100%;
@@ -110,14 +109,26 @@ a {
 
 #wrap #contents #a1 .a1Inner,
 #wrap #contents #a2 .a2Inner,
-#wrap #contents #a3 .a3Inner,
 #wrap #contents #a4 .a4Inner,
 #wrap #contents #a5 .a5Inner {
     width: 1225px;
     height: 1000px;
     margin: 0 auto;
-    /* background image 설정 부분은 생략 */
+    /* background image 설정 부분은 생략 */}
+
+#wrap #contents #a4 {
+  width: 100%;
+    height: 2000px;
+    background-color: #f5f5dc;
+    text-align: center; /* 텍스트를 중앙으로 정렬 */
+    font-size: 2em; /* 텍스트 크기를 기본값의 2배로 키움 */
 }
+#wrap #contents #a4 { 
+    width: 1225px;
+    height: 2000px;
+    margin: 0 auto;
+    /* background image 설정 부분은 생략 */}
+
 
 
 
@@ -157,20 +168,22 @@ a {
     width: 1225px;
     height: 1000px;
     margin: 0 auto;
-    background: url("../images/03.png")no-repeat center 100px;
+    background: url("../images/0.png")no-repeat center 100px;
 }
 
 #wrap #contents #a4 {
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     background-color: #fff;
 }
 
 #wrap #contents #a4 .a4Inner {
     width: 1225px;
-    height: 1000px;
+    height: 2000px;
     margin: 0 auto;
-    background: url("../images/04.png")no-repeat center 100px;
+     background-image: url("../images/03.png"), url("../images/anotherImage.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 100px, center 500px;
 }
 
 #wrap #contents #a5 {
