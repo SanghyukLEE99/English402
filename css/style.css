@@ -98,7 +98,7 @@ a {
 #wrap #slide {
     width: 100%;
     height: 620px;
-    background-color: #f3fbff;
+    background-color: #f5f5dc;
 }
 
 #wrap #slide .slideInner {
@@ -117,7 +117,7 @@ a {
 #wrap #contents #a1 {
     width: 100%;
     height: 1000px;
-    background-color: #f3fbff;
+    background-color: #f5f5dc;
 }
 
 #wrap #contents #a1 .a1Inner {
@@ -179,7 +179,7 @@ a {
 #wrap #contents #a5 {
     width: 100%;
     height: 1000px;
-    background-color: #ff9494;
+    background-color: #f5f5dc;
 }
 
 #wrap #contents #a5 .a5Inner {
