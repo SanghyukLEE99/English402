@@ -181,7 +181,7 @@ a {
     width: 1225px;
     height: 2000px;
     margin: 0 auto;
-     background-image: url("../images/03.png"), url("../images/anotherImage.png");
+     background-image: url("../images/3.png"), url("../images/4.png");
     background-repeat: no-repeat, no-repeat;
     background-position: center 100px, center 500px;
 }
