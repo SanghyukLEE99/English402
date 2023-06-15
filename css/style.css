@@ -91,6 +91,17 @@ a {
     /* x, y*/
 }
 
+#wrap #contents #a1 .a1Inner-text {
+    padding-top: 100px; /* Adjust this value as needed */
+}
+#wrap #contents #a3 {
+    padding-top: 100px; /* Adjust this value as needed */
+}
+#wrap #contents #a4 {
+    padding-top: 100px; /* Adjust this value as needed */
+}
+
+
 /* 컨텐츠 5종 */
 #wrap #contents {
     width: 100%;
