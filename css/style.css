@@ -166,19 +166,23 @@ a {
 
 .image1 {
     background-image: url("../images/p1.jpg");
-    height: 300px;  /* Set as needed */
+    height: 30px;  /* Set as needed */
+    width: 20%;
     background-size: cover;
+    
 }
 
 .image2 {
     background-image: url("../images/p2.jpg");
-    height: 300px;  /* Set as needed */
+    width: 20%;
+    height: 30px;  /* Set as needed */
     background-size: cover;
 }
 
 .image3 {
     background-image: url("../images/p3.jpg");
-    height: 300px;  /* Set as needed */
+    width: 20%;
+    height: 30px;  /* Set as needed */
     background-size: cover;
 }
 
