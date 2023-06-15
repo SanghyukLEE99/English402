@@ -163,6 +163,28 @@ a {
     background: url("../images/01.png")no-repeat center 100px;
 }
 
+
+.image1 {
+    background-image: url("../images/p1.jpg");
+    height: 300px;  /* Set as needed */
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../images/p2.jpg");
+    height: 300px;  /* Set as needed */
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("../images/p3.jpg");
+    height: 300px;  /* Set as needed */
+    background-size: cover;
+}
+
+
+
+
 #wrap #contents #a2 {
      position: relative;
     top: 0;
