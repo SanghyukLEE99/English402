@@ -78,9 +78,7 @@ a {
     margin-top: 40px;
 }
 
-#wrap header .headerInner h1.logo a:hover {
-    opacity: 0.7;
-}
+
 
 /* 메뉴 */
 #wrap header .headerInner nav.menu {
@@ -244,15 +242,7 @@ a {
     left: 19px;
 }
 
-#quick ul li:hover .box {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
 /* 아이콘 위치값으로 가져오기 */
 #quick ul li a {
