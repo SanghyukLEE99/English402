@@ -11,6 +11,34 @@
     <script src="./script/jquery-1.11.3.js"></script>
     <script src="./script/script.js"></script>
 
+    <style>
+        .feature-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .feature {
+            width: 45%; /* Adjust as per your layout preference */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.2);
+        }
+        .feature h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .feature ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature ul li:before {
+            content: '✓ ';
+            color: #28a745; /* Green color */
+        }
+    </style>
+
 </head>
 <body>
     <!-- #wrap>header>.headerInner>h1.logo>a>img -->
@@ -52,6 +80,35 @@
             </div>
             <div id="a2" class="section">
                 <!-- A2 Contents -->
+                </div>
+            <div id="a2" class="section">
+                <!-- A2 Contents -->
+                <div class="feature-container">
+                    <div class="feature">
+                        <h3>Environmentally Friendly</h3>
+                        <ul>
+                            <li>Transform unused plastic bags into waterproof fabric, mitigating the issue of plastic waste.</li>
+                            <li>Promote sustainable lifestyle by encouraging the reuse of materials.</li>
+                        </ul>
+                    </div>
+                    <div class="feature">
+                        <h3>Cost-Effective</h3>
+                        <ul>
+                            <li>Minimal implementation cost as most students already possess the necessary materials.</li>
+                            <li>Contribute to the reduction of campus waste and carbon footprint by decreasing demand for new products.</li>
+                        </ul>
+                    </div>
+                    <div class="feature">
+                        <h3>Practical</h3>
+                        <ul>
+                            <li>Provide a comfortable and dry seating option in the open spaces of WSU campus, enhancing the outdoor experience for students.</li>
+                        </ul>
+                    </div>
+                    <div class="feature">
+                        <h3>Versatile</h3>
+                        <ul>
+                            <li>Compatible with nearly all types of fabric, eliminating the need for new blankets purchase.</li>
+                        </ul>
             </div>
            <div id="a3" class="section">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sr--GVIoluU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
