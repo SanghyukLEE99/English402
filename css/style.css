@@ -347,7 +347,7 @@ a {
 /* 하단 화살표 */
 .btn_top {
     position: fixed;
-    right: 80px;
+    right: 100px;
     bottom: 50px;
     display: block;
     width: 50px;  /* 화살표의 가로 크기 */
