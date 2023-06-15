@@ -311,5 +311,8 @@ a {
     right: 10px;
     bottom: 10px;
     display: block;
-
+    width: 50px;  /* 화살표의 가로 크기 */
+    height: 50px; /* 화살표의 세로 크기 */
+    background: url('./images/your_arrow_image.png') no-repeat center center; /* 화살표 이미지 */
+    background-size: cover; /* 배경 이미지 사이즈 조절 */
 }
