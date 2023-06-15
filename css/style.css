@@ -92,11 +92,7 @@ a {
     margin-top: 40px;
 }
 
-#wrap header .headerInner nav.menu ul li a:hover {
-    color: #4e2bf4;
-    opacity: 0.7;
-    transition: .5s;
-}
+
 
 /* 메인슬라이드 */
 #wrap #slide {
@@ -277,32 +273,7 @@ a {
     background-position: 0 -100px;
 }
 
-/* hover */
 
-#quick ul li:hover a {
-    background: url("../images/quickHover.svg")no-repeat;
-    background-size: 25px 125px;
-}
-
-#quick ul li:hover a.hs {
-    background-position: 0 0;
-}
-
-#quick ul li:hover a.hl {
-    background-position: 0 -27px;
-}
-
-#quick ul li:hover a.hh {
-    background-position: 0 -52px;
-}
-
-#quick ul li:hover a.he {
-    background-position: 0 -75px;
-}
-
-#quick ul li:hover a.hb {
-    background-position: 0 -100px;
-}
 
 /* 하단 화살표 */
 .btn_top {
