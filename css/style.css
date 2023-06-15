@@ -166,40 +166,6 @@ a {
 }
 
 
-.image1 {
-    background-image: url("../images/p1.jpg");
-    height: 30px;  /* Set as needed */
-    width: 20%;
-    background-size: cover;
-    
-}
-
-.image2 {
-    background-image: url("../images/p2.jpg");
-    width: 20%;
-    height: 30px;  /* Set as needed */
-    background-size: cover;
-}
-
-.image3 {
-    background-image: url("../images/p3.jpg");
-    width: 20%;
-    height: 30px;  /* Set as needed */
-    background-size: cover;
-}
-
-.image-container {
-    display: flex;
-    justify-content: space-between; /* 필요에 따라 사용 */
-}
-
-.image1,
-.image2,
-.image3 {
-    width: 30%; /* 필요에 따라 조정 */
-}
-
-
 
 #wrap #contents #a2 {
      position: relative;
